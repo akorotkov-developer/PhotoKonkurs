@@ -1,0 +1,9 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Фотоконкурс");
+?><?
+?>
+<?
+$APPLICATION->IncludeComponent('runetsoft:page.detail','');
+?>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

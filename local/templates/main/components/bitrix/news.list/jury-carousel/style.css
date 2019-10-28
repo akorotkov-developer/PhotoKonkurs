@@ -1,0 +1,67 @@
+
+.jury {
+	background: url("./images/jury-bgr.jpg") top center no-repeat;
+	background-size: cover;
+}
+
+.jury h2 {
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.jury-list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.jury .slick-prev:before {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: url("./images/icons/left-arrow.svg") top center no-repeat;
+}
+.jury .slick-next:before {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 0;
+	background: url("./images/icons/right-arrow.svg") top center no-repeat;
+}
+
+.jury-list__element {
+	display: block;
+	text-align: center;
+	-webkit-box-flex: 33%;
+	-ms-flex: 33% 0 0px;
+	flex: 33% 0 0;
+}
+
+.jury-list__element__img {
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+	margin: auto;
+}
+
+.jury-list__element__name {
+	font-weight: 600;
+	margin: 20px auto;
+	max-width: 250px;
+	line-height: 130%;
+	min-height: 60px;
+}
+
+.jury-list__element__position {
+	font-size: 15px;
+	font-weight: 300;
+	max-width: 250px;
+	margin: 34px auto 0;
+	line-height: 130%;
+}
